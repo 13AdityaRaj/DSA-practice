@@ -31,7 +31,11 @@ for(j=0;j<n;j++){
     printf("Enter element :  ");
     scanf("%d",&ar[j]);
 }
-printf(" After Bubble Sorting : \n ");
+printf("\n Original array : \n");
+for(j=0;j<n;j++){
+    printf(" %d ",ar[j]);
+}
+printf("\n After Bubble Sorting : \n ");
 bubblesort(ar,n);
 
 return 0;
